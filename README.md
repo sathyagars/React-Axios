@@ -1,6 +1,6 @@
 This project was done using React JS - AXIOS
 
-OUTPUT;- [here](https://pratheek-react-axios.netlify.app/)
+OUTPUT;- https://sathyagar-react-axios.netlify.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
