@@ -1,0 +1,135 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1#title {
+  color: #f82a7c;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+   box-shadow: 0 4px 12px rgba(140, 0, 255, 0.7);
+}
+
+.user-card .card-title {
+  color: #4b0082;
+  font-weight: bold;
+}
+
+.user-card .card-subtitle {
+  color: #7c5295;
+}
+
+.user-card .card-text {
+  color: #595959;
+}
+
+.btn-primary {
+  background-color: #9370db;
+  border-color: #9370db;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #7a5ac2;
+  border-color: #7a5ac2;
+}
+
+.btn-warning {
+  background-color: #e047ff;
+  border-color: #e047ff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-warning:hover {
+  background-color: #a035e8;
+  border-color: #a035e8;
+}
+
+.btn-danger {
+  background-color: #d56bff;
+  border-color: #d56bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-danger:hover {
+  background-color: #8156e5;
+  border-color: #8156e5;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+  max-width: 500px;
+  margin: 1.75rem auto;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  color: #4b0082;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.form-label {
+  color: #4b0082;
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #4b0082;
+  box-shadow: 0 0 0 0.2rem rgba(75, 0, 130, 0.25);
+}
